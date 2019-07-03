@@ -20,6 +20,8 @@ body{
   padding-bottom: 2em;
 
 }
+
+
 .detalle{
 padding-top: 2em;
 padding-right: 2em;
@@ -46,17 +48,12 @@ text-align: left;
   width: 800px;
 
 }
-.historiapropia{
-  width: 800px;
-  height: 300px;
-}
 
 .link{
   margin-bottom: 2.8em;
 }
 
 .center{
-
   position: fixed;
 top: 0px;
 left: 25px;
@@ -65,10 +62,9 @@ height: 100%;
 list-style: none;
 line-height: 20px;
 text-align: left;
-
 }
 
-}
+
 ul3{
   float: none;
   position: relative;
