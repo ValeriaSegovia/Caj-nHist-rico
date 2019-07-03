@@ -88,69 +88,148 @@
       </div>
 
       <div class="columns">
+      <div class="row">
 
           <div class="column">
-          <img src="assets/img/IMG_8308.jpg" alt="foto1">
+          <img src="assets/img/IMG_8308.jpg"  style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
           <div class="column">
-          <img src="assets/img/IMG_8261.jpg" alt="foto2">
+          <img src="assets/img/IMG_8261.jpg"  style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
           </div>
-
-      </div>
-
-      <div class="columns">
-
           <div class="column">
-          <img src="assets/img/IMG_8271.jpg" alt="foto3">
+          <img src="assets/img/IMG_8271.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
           </div>
-
           <div class="column">
-          <img src="assets/img/IMG_8295.jpg" alt="foto4">
+          <img src="assets/img/IMG_8295.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
           </div>
-
-      </div>
-
-      <div class="columns">
-
           <div class="column">
-          <img src="assets/img/IMG_8307.jpg" alt="foto5">
+          <img src="assets/img/IMG_8307.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
           </div>
-
           <div class="column">
-          <img src="assets/img/IMG_8315.jpg" alt="foto6">
+          <img src="assets/img/IMG_8315.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
           </div>
-
-      </div>
-
-      <div class="columns">
-
           <div class="column">
-          <img src="assets/img/IMG_8318.jpg" alt="foto7">
+          <img src="assets/img/IMG_8318.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
           </div>
-
           <div class="column">
-          <img src="assets/img/IMG_8314.jpg" alt="foto8">
+          <img src="assets/img/IMG_8314.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+          <img src="assets/img/IMG_8264.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+          <img src="assets/img/IMG_8264.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
           </div>
 
         </div>
-
-        <div class="columns">
-
-          <div class="column">
-          <img src="assets/img/IMG_8264.jpg" alt="foto9">
-          </div>
-
-          <div class="column">
-          <img src="assets/img/IMG_8264.jpg" alt="foto10">
-          </div>
-
         </div>
+        <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 10</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 10</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 10</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8308.jpg" style="width:90%" onclick="currentSlide(1)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8261.jpg" style="width:90%" onclick="currentSlide(2)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8271.jpg" style="width:90%" onclick="currentSlide(3)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8295.jpg" style="width:90%" onclick="currentSlide(4)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8307.jpg" style="width:90%" onclick="currentSlide(5)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8315.jpg" style="width:90%" onclick="currentSlide(6)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8318.jpg" style="width:90%" onclick="currentSlide(7)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8314.jpg" style="width:90%" onclick="currentSlide(8)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8315.jpg" style="width:90%" onclick="currentSlide(6)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8264.jpg" style="width:90%" onclick="currentSlide(9)">
+    </div>
+    <div class="column3">
+      <img class="demo cursor" src="assets/img/IMG_8264.jpg" style="width:90%" onclick="currentSlide(10)">
+    </div>
+  </div>
+</div>
+
+
+
     </div>
   </div>
 
   </div>
 </section>
-
+<script src="assets/css/modal.js"> </script>
 <script src="https://kit.fontawesome.com/d31a5b5732.js"></script>
 </body>
 </html>
