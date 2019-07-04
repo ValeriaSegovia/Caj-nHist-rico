@@ -1,18 +1,18 @@
 body{
   font-family: 'Oswald', sans-serif;
-  color: #000000;
+  color: #10455b;
   overflow: hiddMen !important;
-  background-color: #ffffff;
+  background-color: #f9f3ed;
   padding-left: 2em;
   text-align: left;
 }
 
 .menu{
-  background-color: #000000;
+  background-color: #10455b;
 }
 
 .contenido{
-  background-color: #ffffff;
+  background-color: #f9f3ed;
   height: 300vh;
   padding-left: 2em;
   padding-right: 2em;
@@ -35,9 +35,7 @@ text-align: left;
 }
 
 .Logo{
-  background: pink;
-  height: 100px;
-  width: 100xp;
+padding-bottom: 3em;
 
 }
 .main-img{
@@ -48,7 +46,9 @@ text-align: left;
   width: 800px;
 
 }
-
+.historiapropia{
+  width: 800px;
+}
 .link{
   margin-bottom: 2.8em;
 }
@@ -69,12 +69,14 @@ text-align: left;
   }
 }
 
-
+.sidenav{
+      background-color: : #10455b;
+}
 .sidebar {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #000000;
+  background-color: #10455b;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -82,7 +84,7 @@ text-align: left;
 
 .sidebar a {
   display: block;
-  color: white;
+  color: #10455b;
   padding: 16px;
   text-decoration: none;
 }
@@ -119,7 +121,7 @@ ul3{
   align-self: auto;
 }
 a{
-  color: #ffffff;
+  color: #f9f3ed;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1.6;
@@ -127,16 +129,16 @@ a{
 }
 
 .active{
-  color: #f59b17;
+  color: #ffaf20;
 
 }
 a:hover{
-  color: #f59b17;
+  color: #ffaf20;
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #f9f3ed;
 }
 .anexo{
-  color: #3d3868 ;
+  color: #263137 ;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1.6;
@@ -145,9 +147,9 @@ a:hover{
 }
 
 .anexo:hover{
-  color: #f59b17;
+  color: #efb20c;
   text-decoration: underline;
-  text-decoration-color: #1c2931;
+  text-decoration-color: #263137;
 }
 .anexo2{
   color: #3d3868 ;
@@ -156,17 +158,18 @@ a:hover{
   letter-spacing: 1.6;
   padding-bottom: 1em;
 }
-.gris{
-  filter: grayscale(1);
-  transition:all ease-out 1s;
-
-
+.anexo2:hover{
+  color: #ffaf20;
+}
+.active2{
+  color: #ffaf20;
 }
 p{
   font-family: 'Nunito', sans-serif;
   padding-bottom: 0.5em;
   padding-right: 2em;
   font-size: 14px;
+  color: #10455b;
 }
 p2{
   font-size: 14px;
@@ -318,29 +321,35 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.ul2{
+  height: 3em;
+}
 
 #menu {
     width: 100px;
     margin: 0 auto
     display: block;
+    background-color: : #10455b;
 }
 #menu>ul>li {
     float: left
+    background-color: : #10455b;
 }
 #menu>ul>li a {
     display: block;
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    background-color: : #10455b;
     background: ;
     text-align: left;
-    line-height: 50px
+
+
 }
 #menu>ul>li>ul {
     display: none
 }
 #menu>ul>li>ul>li {
     position: relative
+    background-color: : #10455b;
 }
 
 
@@ -349,6 +358,7 @@ img.hover-shadow {
     left: 100px;
     top: 0;
     display: none
+    background-color: : #10455b;
 }
 
 #menu ul {
